@@ -1,5 +1,6 @@
 import { motion } from "framer-motion";
 import backgroundImage from "@/assets/background.jpg";
+import bradImage from "@/assets/brad-browning.png";
 
 const Index = () => {
   return (
@@ -33,6 +34,12 @@ const Index = () => {
           Access Brad Browning's specific digital program for men to understand
           relationship dynamics and communication.
         </p>
+
+        <img
+          src={bradImage}
+          alt="Brad Browning"
+          className="w-full max-w-md mx-auto rounded-sm mb-12 shadow-[0_10px_40px_rgba(0,0,0,0.5)]"
+        />
 
         <motion.a
           href="#"

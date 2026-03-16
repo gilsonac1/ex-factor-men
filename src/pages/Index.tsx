@@ -1,5 +1,6 @@
 import { motion } from "framer-motion";
 import backgroundImage from "@/assets/background.jpg";
+import bradImage from "@/assets/brad-browning.png";
 
 const Index = () => {
   return (

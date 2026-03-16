@@ -35,6 +35,12 @@ const Index = () => {
           relationship dynamics and communication.
         </p>
 
+        <img
+          src={bradImage}
+          alt="Brad Browning"
+          className="w-full max-w-md mx-auto rounded-sm mb-12 shadow-[0_10px_40px_rgba(0,0,0,0.5)]"
+        />
+
         <motion.a
           href="#"
           whileHover={{ scale: 1.02 }}

@@ -36,7 +36,7 @@ const Index = () => {
         </p>
 
         <motion.a
-          href="#"
+          href="https://hop.clickbank.net/?affiliate=gilsonac&vendor=brbrowning&tid=gadsm&p=m"
           whileHover={{ scale: 1.02 }}
           whileTap={{ scale: 0.98 }}
           className="block w-full max-w-md mx-auto mb-12 cursor-pointer"
@@ -49,7 +49,7 @@ const Index = () => {
         </motion.a>
 
         <motion.a
-          href="#"
+          href="https://hop.clickbank.net/?affiliate=gilsonac&vendor=brbrowning&tid=gadsm&p=m"
           whileHover={{ scale: 1.02 }}
           whileTap={{ scale: 0.98 }}
           className="inline-flex items-center justify-center h-16 px-10 bg-primary text-primary-foreground text-sm font-bold uppercase tracking-[0.15em] rounded-sm shadow-[0_20px_50px_rgba(37,99,235,0.3)] transition-shadow hover:shadow-[0_20px_60px_rgba(37,99,235,0.5)] cursor-pointer"

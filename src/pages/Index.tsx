@@ -35,11 +35,18 @@ const Index = () => {
           relationship dynamics and communication.
         </p>
 
-        <img
-          src={bradImage}
-          alt="Brad Browning"
-          className="w-full max-w-md mx-auto rounded-sm mb-12 shadow-[0_10px_40px_rgba(0,0,0,0.5)]"
-        />
+        <motion.a
+          href="#"
+          whileHover={{ scale: 1.02 }}
+          whileTap={{ scale: 0.98 }}
+          className="block w-full max-w-md mx-auto mb-12 cursor-pointer"
+        >
+          <img
+            src={bradImage}
+            alt="Brad Browning"
+            className="w-full rounded-sm shadow-[0_10px_40px_rgba(0,0,0,0.5)] transition-shadow hover:shadow-[0_20px_60px_rgba(0,0,0,0.7)]"
+          />
+        </motion.a>
 
         <motion.a
           href="#"
